@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import getArgs from "./helpers/args.js"
-import { PrintError, PrintSuccess, PrintHelp, printWeather } from './serveses/log.service.js'
-import { saveKeyValue, TOKEN_DICTIONARY, getKeyValue } from "./serveses/storage.service.js"
-import { getWeather } from './serveses/api.service.js'
+import { PrintError, PrintSuccess, PrintHelp, printWeather } from './serveces/log.service.js'
+import { saveKeyValue, TOKEN_DICTIONARY, getKeyValue } from "./serveces/storage.service.js"
+import { getWeather } from './serveces/api.service.js'
 
 
 async function saveToken(token)
