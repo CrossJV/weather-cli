@@ -1,4 +1,4 @@
-# wheather-cli
+# weather-cli
 CLI FOR GETTING WEATHER BY CITY NAME
 
 ##### COMMANDS #####
